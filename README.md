@@ -1,99 +1,19 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Daily Planner for Effective Time Management
 
-## Your Task
+This homework assignment involves creating a daily planner application that allows employees with busy schedules to add important events and effectively manage their time. The planner will display the current day at the top of the calendar and provide timeblocks for standard business hours. The timeblocks will be color-coded to indicate whether they are in the past, present, or future. The user can enter events into the timeblocks and save them, with the saved events persisting even after refreshing the page.
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Summary
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The daily planner accomplishes the following:
 
-## User Story
+- Upon opening the planner, the current day is displayed prominently at the top of the calendar, providing users with instant awareness of the current date.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- Scrolling down reveals timeblocks for standard business hours, allowing users to plan their day effectively.
 
-## Acceptance Criteria
+- Each timeblock is color-coded to indicate whether it is in the past, present, or future. This visual cue helps users quickly identify the current timeframe and upcoming events.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+- By clicking into a timeblock, users can enter and edit events or important tasks associated with that specific hour.
 
-The following animation demonstrates the application functionality:
+- When the user clicks the save button for a timeblock, the entered text is saved in local storage, ensuring that the events persist even after refreshing the page.
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+By developing this daily planner application, employees can conveniently manage their time by adding and tracking important events throughout the day. The color-coded interface provides a visual overview of the schedule, enabling users to prioritize tasks effectively. The ability to save events in local storage ensures that the information remains accessible, allowing users to stay organized even after closing and reopening the application.
